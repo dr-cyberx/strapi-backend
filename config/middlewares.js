@@ -11,6 +11,15 @@ module.exports = [
   "strapi::public",
 ];
 
+// module.exports = {
+//   settings: {
+//     cors: {
+//       enabled: true,
+//       origin: ["*"], // Adjust as needed
+//     },
+//   },
+// };
+
 // module.exports = ({ env }) => ({
 //   settings: {
 //     cors: {
