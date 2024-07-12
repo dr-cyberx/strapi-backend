@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "titanics",
+  "info": {
+    "singularName": "titanic",
+    "pluralName": "titanics",
+    "displayName": "Titanic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "age": {
+      "type": "integer"
+    },
+    "survived": {
+      "type": "boolean"
+    },
+    "pClass": {
+      "type": "enumeration",
+      "enum": [
+        "p1",
+        "p2",
+        "p3"
+      ]
+    },
+    "Gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female"
+      ]
+    }
+  }
+}
